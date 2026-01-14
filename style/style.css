@@ -44,38 +44,46 @@
 .section-padding {
     padding-top: 113px;
 }
-.section-headding{
+
+.section-headding {
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
 }
-.section-headding h2{
+
+.section-headding h2 {
     color: #181818;
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.section-headding p{
+
+.section-headding p {
     color: #757575;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.about-card p{
+
+.about-card p {
     color: #757575;
     font-size: 20px;
 }
-.about-card h4{
+
+.about-card h4 {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
 }
-.margin{
+
+.margin {
     margin-bottom: 113px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 /*main style*/
 header {
 
@@ -159,80 +167,95 @@ header .menu a {
     text-align: center;
     padding: 131px 156px;
 }
-.about-card-continer{
+
+.about-card-continer {
     display: flex;
     justify-content: space-around;
 }
-#work-card-continer{
+
+#work-card-continer {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
 }
-.work-card-cotiner{
+
+.work-card-cotiner {
     display: flex;
     gap: 24px;
 }
-.work-card-cotiner .card{
+
+.work-card-cotiner .card {
     padding: 30px;
     max-width: 267px;
     box-shadow: 0 6px 50px #0000000f;
     border-radius: 5px;
 }
-.card img{
+
+.card img {
     max-width: 44px;
     margin-bottom: 30px;
 }
-.card h3{
+
+.card h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.card p{
+
+.card p {
     color: #757575;
     font-size: 16px;
     line-height: 28px;
 }
-#resume .resume-continer{
+
+#resume .resume-continer {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     gap: 24px;
 }
-.resume-continer .headding{
+
+.resume-continer .headding {
     color: #474747;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.content{
+
+.content {
     max-width: 511px;
     margin: 0 30px 30px 0;
 }
-.content h3{
-    color:#474747;
+
+.content h3 {
+    color: #474747;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.content .card-info{
+
+.content .card-info {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.content .card-text{
+
+.content .card-text {
     color: #757575;
-    font-size:16px ;
+    font-size: 16px;
     margin-bottom: 30px;
     line-height: 28px;
 }
-footer{
+
+footer {
     margin-top: 130px;
     background-color: #FFF8F3;
     padding: 130px 0;
 }
-.footer-continer{
+
+.footer-continer {
     width: 71%;
     max-width: 1140px;
     display: flex;
@@ -240,29 +263,96 @@ footer{
     gap: 116px;
 
 }
-.social-content{
+
+.social-content {
     max-width: 562px;
 }
-.footer-heading{
+
+.footer-heading {
     color: #181818;
-    font-size:35px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.social-content p{
+
+.social-content p {
     color: #474747;
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 30px;
 }
-.icons img{
+
+.icons img {
     width: 24px;
     margin-left: 24px;
 }
-.from input[type="text"],input[type="email"],textarea{
+
+.from input[type="text"],
+input[type="email"],
+textarea {
     border: none;
     border-radius: 5px;
     padding: 18px 350px 18px 30px;
     margin-bottom: 24px;
     color: #757575;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    /* nav sedtion */
+
+    nav {
+        gap: 20px;
+    }
+
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner {
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .banner-button {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .banner .btn,
+    .btn2 {
+        width: 80%;
+    }
+
+    .banner .banner-contener h2 {
+        font-size: 30px;
+    }
+
+    .banner .banner-contener h1 {
+        font-size: 45px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    header {
+        background: url(../images/header_bg.png), #FFF8F3;
+        background-position:bottom right;
+        background-repeat: no-repeat;
+        
+    }
+
+    .banner,
+    nav,
+    .banner-button {
+        flex-direction: column;
+
+    }
+
+
 }
